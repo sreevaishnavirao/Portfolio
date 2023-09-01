@@ -3,40 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <title>Sree Vaishnavi Bommena</title>
-<style>
- 
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color:whitesmoke;
-  }
-  header {
-    background-color:rgb(103, 99, 229);
-    color:whitesmoke;
-    padding: 1em 0;
-    text-align: center;
-  }
-  .container {
-    max-width: 1500px;
-    padding: 2em;
-    background-color:white;
-  }
- 
-</style>
-
-
-
 
 
 </head>
 <body>
   <header>
+    <img  class="pict" src="picture.jpeg"  alt="" width="100" height="100" align="right" >
     <h1>Sree Vaishnavi Rao Bommena</h1>
+   
     <p>Graduate Student</p>
+    
+    
+   
   </header>
-  
   
   <div class="container">
     <section class="about"></section>
@@ -69,46 +51,58 @@
     </section>
     <hr>
     <section class="projects">
+      
         <h2>Projects</h2>
-        <div class="project">
-          <h3><u>Twitter Sentiment Analysis</u></h3>
-          <p>Jan 2021</p>
-          <ul>
-            <li>This project is used to automatically predict customer’s sentiment i.e. whether the customers are happy or not.</li>
-            <li>Using Naïve Bayes Classifier model and training model using Scikit-learn and performing count vectorization.</li>
-          </ul>
+        <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="twitter.jpg" class="card-img" alt="..."  width="100%" height="30%">
+          <div class="card-body">
+            <h3><u>Twitter Sentiment Analysis</u></h3>
+            <p class="card-text"></p>
+            
+              <p>This project is used to automatically predict customer’s sentiment i.e. whether the customers are happy or not.
+              Performed Using Naïve Bayes Classifier model and training model using Scikit-learn and performing count vectorization.</p>
+            
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;"> 
+          <img src="jobportal.png" class="card-img" alt="..."  width="100%" height="30%">
+          <div class="card-body">
+            <h3><u>Job Portal Website</u></h3>
+            <p class="card-text"></p>
+            
+              <p>Designed job portal with admin dashboard to display jobs and user dashboard to apply for jobs.
+              Technologies used: HTML, CSS, Bootstrap, JavaScript, PHP, MySQL</p>
+            
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="waterqualifier.jpg" class="card-img" alt="..."  width="100%" height="30%">
+          <div class="card-body">
+            <h3><u>Assessing Water Quality using Classifiers</u></h3>
+            <p class="card-text"></p>
+            
+              <p>Data Science project aimed to find potability of water using classifiers combined with interactive GUI and a database
+              Performed data visualization tasks to find the portability of water.
+              Technologies used: Machine learning algorithms, PyQt5, XML, UI, sqlite3.</p>
+            
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="roadobject.png" class="card-img" alt="..."  width="100%" height="30%">
+          <div class="card-body">
+            <h3><u>Implementation of Real-time Traffic Signs and Road Objects</u></h3>
+            <p class="card-text"></p>
+            
+              <p>Developed a deep learning-based detection system for autonomous driving and driver assistance systems.
+            Used Yolov5, Yolov6, LSTM, CNN, Faster RCNN to find the confidence score of the traffic signs and objects detected.</p>
+            
+            </ul>
+          </div>
         </div>
         
-        <div class="project">
-          <h3><u>Job Portal Website</u></h3>
-          <p>July 2021</p>
-          <ul>
-            <li>Designed job portal with admin dashboard to display jobs and user dashboard to apply for jobs.</li>
-            <li>Technologies used: HTML, CSS, Bootstrap, JavaScript, PHP, MySQL.</li>
-          </ul>
         </div>
         
-        <div class="project">
-          <h3><u>Assessing Water Quality using Classifiers</u></h3>
-          <p>Feb 2022</p>
-          <ul>
-            <li>Data Science project aimed to find potability of water using classifiers combined with interactive GUI and a database.</li>
-            <li>Storing the Water extracting point details and water quality factors in the database.</li>
-            <li>Performed data visualization tasks to find the portability of water.</li>
-            <li>Technologies used: Machine learning algorithms, PyQt5, XML, UI, sqlite3.</li>
-          </ul>
-        </div>
-        
-        <div class="project">
-          <h3><u>Implementation of Real-time Traffic Signs and Road Objects</u></h3>
-          <p>Nov 2022</p>
-          <ul>
-            <li>Developed a deep learning-based detection system for autonomous driving and driver assistance systems.</li>
-            <li>Created an interface using Flask framework to take in image and video capture.</li>
-            <li>Used Yolov5, Yolov6, LSTM, CNN, Faster RCNN to find the confidence score of the traffic signs and objects detected.</li>
-            <li>The experimental results show that with low power consumption and high computational power provides high efficiency with the fastest inference speed and accuracy in detection.</li>
-          </ul>
-        </div>
       </section>
       <hr>
       <section class="Skills">
@@ -145,6 +139,7 @@
         </div>
       </section>
       <hr>
+    
       
   </div>
 </body>
