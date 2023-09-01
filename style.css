@@ -38,8 +38,7 @@
 
   .card{
     height: 200px;
-  
-    margin:50px;
+    margin:20px;
     box-shadow:5px 5px 20px black;
     overflow: hidden;
   }
@@ -47,13 +46,21 @@
  
   .card-img{
     height: 200px;
-    width:250px;
+    width:100px;
+    padding: 10px;
     border-radius: 3px;
+   
+    
   }
   
   .card:hover{
     cursor: pointer;
     transform:translateY(-5px);
   }
-  
+  .b{
+    border-radius: 10px;
+  }
+.b:hover{
+  transform:translateY(-5px);
 
+}
