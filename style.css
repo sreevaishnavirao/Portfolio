@@ -41,16 +41,16 @@
   flex: 1;
   padding: 10px;
   text-align: center;
-    background-color:#D58BEF ; /* Change this to the desired color */
-    color: #fff; /* Text color */
-    border: none; /* Remove the button border, if desired */
-    padding: 10px 20px; /* Adjust padding as needed */
-    cursor: pointer; /* Change cursor to pointer on hover, if desired */
+    background-color:#D58BEF ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer; 
     justify-content: space-between;
   }
   
   .ak:hover {
-    background-color:#9c1acc; /* Change color on hover, if desired */
+    background-color:#9c1acc; 
   }
 
 
@@ -121,4 +121,11 @@
   
  
  
+}
+@media (max-width: 768px) {
+  .ak {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
